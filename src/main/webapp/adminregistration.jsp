@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./css/create-style.css"/>
   <link rel="shortcut icon" type="image/x-icon" href="./files/pics/logo.png"/>
-  <title>Create Account</title>
+  <title>Admin Create Account</title>
 </head>
 <body>
 <input type="hidden" id="status" value="<%= request.getAttribute("status") %>">
@@ -19,20 +19,18 @@
     <div class="container">
       <div class="create">
         <p class="title"><span>Create your Account</span></p>
-        <form id="createAccountForm" action="register" method="post">
+        <form action="adminregister" method="post">
           <div class="column">
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required/>
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="09998887766" required/>
+            <input type="email" id="email" name="email"/>
+
             <label for="name">Username</label>
             <input type="text" id="name" name="name" required/>
           </div>
           <div class="column">
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required/>
-            <label for="reppassword">Repeat Password</label>
-            <input type="password" id="reppassword" name="reppassword" required/>
+
           </div>
           <div class="button">
             <button type="submit">Create Account</button>
@@ -40,12 +38,15 @@
         </form>
 
         <p class="login">
-          <span>Already have an Account? <a href="login.jsp">Click here to login</a></span>
+                    <span>Already have an Account?
+                        <a href="login.jsp">Click here to login</a>
+                    </span>
         </p>
         <p class="login">
-          <span><a href="index.jsp">Home Page</a></span>
+        <span><a href="index.jsp">Home Page</a></span>
         </p>
       </div>
+
     </div>
   </section>
 </main>

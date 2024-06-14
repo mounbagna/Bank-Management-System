@@ -24,7 +24,7 @@
         <div class="container">
             <div class="create">
                 <p class="title"><span>Transfer Form</span></p>
-                <form action="loan" method="post">
+                <form action="transfer" method="post">
                     <div class="column">
                         <label for="faccount">From Account</label>
                         <input type="number" id="faccount" name="faccount"/>

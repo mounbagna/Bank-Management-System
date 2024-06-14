@@ -204,6 +204,7 @@ body main section .container .create form .column input {
   margin-right: 50px;
   margin-left: 50px;
 }
+
 body main section .container .create form .column #idpic::-webkit-file-upload-button {
   background-color: #3c486b;
   color: #f0f0f0;

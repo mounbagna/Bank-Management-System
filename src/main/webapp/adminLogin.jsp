@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./css/login-style.css"/>
   <link rel="shortcut icon" type="image/x-icon" href="./files/pics/logo.png"/>
-  <title>Login Page</title>
+  <title>Admin Login Page</title>
 </head>
 <body>
 <input type="hidden" id="status" value="<%= request.getAttribute("status") %>">
@@ -18,8 +18,8 @@
   <section>
     <div class="container">
       <div class="login">
-        <p class="title"><span>Login to your Account</span></p>
-        <form action="login" method="post">
+        <p class="title"><span>Admin Login Page</span></p>
+        <form action="adminlogin" method="post">
           <label for="username">Username</label>
           <input type="text" id="username" name="name" required/>
           <label for="password">Password</label>
@@ -30,13 +30,8 @@
           <span><a href="forget.html">Forget password</a></span>
         </p>
         <p class="create">
-                    <span>Want to Create an Account?
-                        <a href="registration.jsp">Click here</a>
-                    </span>
-        </p>
-        <p class="create">
-                            <span>Login-In as Administrator?
-                                <a href="adminLogin.jsp">Click here</a>
+                            <span>Login-In as User?
+                                <a href="login.jsp">Click here</a>
                             </span>
                 </p>
         <p class="create">

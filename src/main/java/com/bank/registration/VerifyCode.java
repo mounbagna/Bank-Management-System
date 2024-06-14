@@ -24,7 +24,7 @@ public class VerifyCode extends HttpServlet {
             if (code.equals(user.getCode())){
                 response.sendRedirect("login.jsp");
             }else{
-                out.println("Incorrect Verification code");
+                response.sendRedirect("registration.jsp");
             }
 
         }

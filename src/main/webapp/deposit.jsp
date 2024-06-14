@@ -1,8 +1,3 @@
-<%
-    if(session.getAttribute("name")==null){
-        response.sendRedirect("login.jsp");
-    }
-%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +19,7 @@
         <div class="container">
             <div class="create">
                 <p class="title"><span>Deposit Form</span></p>
-                <form action="withdraw" method="post">
+                <form action="deposit" method="post">
                     <div class="column">
                         <label for="accountNum">Account Number</label>
                         <input type="number" id="accountNum" name="accountNum"/>
@@ -51,17 +46,6 @@
         </div>
     </section>
 </main>
-
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="js/main.js"></script>
-<script src="http://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" href="alert/dist/sweetalert.css">
-<script type="text/javascript">
-    var status = document.getElementById("status").value;
-    if(status == "success"){
-        swal("congrats","Account created successfully","success");
-    }
-</script>
 
 </body>
 </html>

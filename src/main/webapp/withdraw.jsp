@@ -59,7 +59,7 @@
 <script type="text/javascript">
     var status = document.getElementById("status").value;
     if(status == "success"){
-        swal("congrats","Account created successfully","success");
+        swal("congrats","Balance Debited successfully","success");
     }
 </script>
 

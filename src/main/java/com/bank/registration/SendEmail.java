@@ -18,8 +18,10 @@ public class SendEmail {
     public boolean sendEmail(User user, HttpServletRequest request) {
         boolean test = false;
         String toEmail = user.getEmail();
+
+        //provide valid email address and password
         String fromEmail = "abdellaabasse@iut-dhaka.edu";
-        String password = "kamikaze.10";
+        String password = "";
         try {
             Properties pr = new Properties();
 

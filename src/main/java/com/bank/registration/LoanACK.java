@@ -23,8 +23,8 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-@WebServlet(name = "EmailSend", urlPatterns = {"/EmailSend"})
-public class EmailSend extends HttpServlet {
+@WebServlet(name = "LoanACK", urlPatterns = {"/LoanACK"})
+public class LoanACK extends HttpServlet {
 
     String name, subject, email, msg;
 
@@ -37,9 +37,8 @@ public class EmailSend extends HttpServlet {
         subject = request.getParameter("subject");
         msg = request.getParameter("message");
 
-        //enter valid email address and password
         final String username = "abdellaabasse@iut-dhaka.edu";
-        final String password = "";
+        final String password = "kamikaze.10";
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
         props.put("mail.smtp.starttls.enable", true);
@@ -54,8 +53,8 @@ public class EmailSend extends HttpServlet {
                 });
         try {
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress(email));
-            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(username));
+            message.setFrom(new InternetAddress(username));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
             MimeBodyPart textPart = new MimeBodyPart();
             Multipart multipart = new MimeMultipart();
             String final_Text = "Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + msg;
@@ -63,12 +62,11 @@ public class EmailSend extends HttpServlet {
             message.setSubject(subject);
             multipart.addBodyPart(textPart);
             message.setContent(multipart);
-            message.setSubject("Contact Details");
+            message.setSubject("Loan Approving");
             //out.println("Sending");
             Transport.send(message);
             out.println("<center><h2 style='color:green;'>Email Sent Successfully.</h2>");
-            out.println("Thank you " + name + ", your message has been submitted to us.</center>");
-            out.println("<p><span><a href='index.jsp'>Home Page</a></span></p>");
+            out.println("<p><span><a href='loanrequest.jsp'>Home Page</a></span></p>");
         } catch (Exception e) {
             out.println(e);
         }

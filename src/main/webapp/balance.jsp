@@ -24,7 +24,7 @@
         <div class="container">
             <div class="create">
                 <p class="title"><span>Check Balance Form</span></p>
-                <form action="balance" method="post">
+                <form action="show.jsp" method="post">
                     <div class="column">
                         <label for="accountNum">Account Number</label>
                         <input type="number" id="accountNum" name="accountNum"/>

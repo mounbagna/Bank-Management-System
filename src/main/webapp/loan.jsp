@@ -23,7 +23,7 @@
     <section>
         <div class="container">
             <div class="create">
-                <p class="title"><span>Loan Form</span></p>
+                <p class="title"><span>Request For Loan</span></p>
                 <form action="loan" method="post">
                     <div class="column">
                         <label for="email">Email Address</label>
@@ -40,8 +40,9 @@
                         <label for="accountNum">Account Number</label>
                         <input type="number" id="accountNum" name="accountNum" required
                                onkeyup="check()"/>
-                        <label for="idpic">ID Picture</label>
-                        <input type="file" id="idpic" name="idpic"/>
+                        <label for="idpic">Description</label>
+                        <textarea id="desc" name="desc"></textarea>
+
                     </div>
                     <div class="button">
                         <button type="submit">Loan</button>
