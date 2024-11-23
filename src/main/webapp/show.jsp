@@ -25,7 +25,7 @@
 <input type="hidden" id="status" value="<%= request.getAttribute("status") %>">
 
 <header>
-    <h1 onclick="window.location.href='index.jsp'">A.S.I.G bank</h1>
+    <h1 onclick="window.location.href='index.jsp'">BANKIFY</h1>
 </header>
 <main>
     <section>
