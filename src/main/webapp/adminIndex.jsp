@@ -52,7 +52,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Freelancer - Start Bootstrap Theme</title>
+<title>BANKIFY</title>
 <style>
         table {
             width: 100%;
@@ -127,7 +127,7 @@
 		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
 		id="mainNav">
 		<div class="container">
-			<a class="navbar-brand" href="#page-top">A.S.I.G Bank</a>
+			<a class="navbar-brand" href="#page-top">BANKIFY</a>
 			<button
 				class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
 				type="button" data-bs-toggle="collapse"
@@ -160,7 +160,7 @@
 			<img class="masthead-avatar mb-5" src="assets/img/bank.jpg"
 				alt="..." />
 			<!-- Masthead Heading-->
-			<h1 class="masthead-heading text-uppercase mb-0">Welcome To A.S.I.G Bank</h1>
+			<h1 class="masthead-heading text-uppercase mb-0">Welcome To BANKIFY</h1>
 			<!-- Icon Divider-->
 			<div class="divider-custom divider-light">
 				<div class="divider-custom-line"></div>
@@ -244,14 +244,14 @@
 			<!-- About Section Content-->
 			<div class="row">
 				<div class="col-lg-4 ms-auto">
-					<p class="lead">Welcome to Web App Banking, a collaborative project brought to you by a group of
-						dedicated students from the Islamic University of Technology. Hailing from both Cameroon and
-						Nigeria, our team is passionate about revolutionizing the digital banking experience for users
+					<p class="lead">Welcome to BANKIFY, a project brought to you by a
+						dedicated student from the Islamic University of Technology. Hailing from Cameroon,
+						  i am passionate about revolutionizing the digital banking experience for users
 						across borders.</p>
 				</div>
 				<div class="col-lg-4 me-auto">
-					<p class="lead">At Web App Banking, our mission is to provide a seamless and secure online banking
-						platform that meets the evolving needs of our diverse clientele. We strive to empower individuals
+					<p class="lead">At BANKIFY, my mission is to provide a seamless and secure online banking
+						platform that meets the evolving needs of our diverse clientele. I strive to empower individuals
 						and businesses with accessible financial services, facilitating convenient transactions and fostering
 						financial inclusion.</p>
 				</div>
@@ -273,21 +273,21 @@
 				<!-- Footer Social Icons-->
 				<div class="col-lg-4 mb-5 mb-lg-0">
 					<h4 class="text-uppercase mb-4">Around the Web</h4>
-					<a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/?ref=homescreenpwa"><i
+					<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
 						class="fab fa-fw fa-facebook-f"></i></a> <a
-						class="btn btn-outline-light btn-social mx-1" href="https://web.telegram.org/a/"><i
-						class="fab fa-fw fa-twitter"></i></a> <a
 						class="btn btn-outline-light btn-social mx-1" href="#!"><i
+						class="fab fa-fw fa-twitter"></i></a> <a
+						class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i
 						class="fab fa-fw fa-linkedin-in"></i></a> <a
 						class="btn btn-outline-light btn-social mx-1" href="#!"><i
 						class="fab fa-fw fa-dribbble"></i></a>
 				</div>
 				<!-- Footer About Text-->
 				<div class="col-lg-4">
-					<h4 class="text-uppercase mb-4">About A.S.I.G</h4>
+					<h4 class="text-uppercase mb-4">About BANKIFY</h4>
 					<p class="lead mb-0">
-						A.S.I.G is an online banking app implemented to facilitate transactions for it users. Created
-						by <a href="https://www.facebook.com/?ref=homescreenpwa">Abasse(A) Saleem(S) Ibrahim(I) Guidado(G)</a> .
+						BANKIFY is an online banking app implemented to facilitate transactions for it users. Created
+						by <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">MOUNBAGNA ABDELLA ABASSE</a> .
 					</p>
 				</div>
 			</div>
@@ -296,7 +296,7 @@
 	<!-- Copyright Section-->
 	<div class="copyright py-4 text-center text-white">
 		<div class="container">
-			<small>Copyright &copy; ISIG@Tech 2024</small>
+			<small>Copyright &copy; BANKIFY@Tech 2024</small>
 		</div>
 	</div>
 	<!-- Portfolio Modals-->
@@ -526,7 +526,7 @@
 									services, and invoices directly from their account dashboard. Whether it's electricity, water, internet, or other
 									recurring bills, our platform simplifies the process, ensuring timely payments and eliminating the hassle of manual
 									transactions. Stay organized, stay on top of your finances, and enjoy the convenience of hassle-free bill management with
-									Web App Banking.</p>
+									BANKIFY.</p>
 							</div>
 						</div>
 					</div>
