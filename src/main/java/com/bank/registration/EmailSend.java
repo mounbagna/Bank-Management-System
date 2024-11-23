@@ -38,8 +38,8 @@ public class EmailSend extends HttpServlet {
         msg = request.getParameter("message");
 
         //enter valid email address and password
-        final String username = "abdellaabasse@iut-dhaka.edu";
-        final String password = "";
+        final String username = "abassledesigner@gmail.com";
+        final String password = "fiqq rjbw nnwc onsz";
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
         props.put("mail.smtp.starttls.enable", true);
