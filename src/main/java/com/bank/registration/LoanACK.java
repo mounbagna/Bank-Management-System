@@ -38,7 +38,7 @@ public class LoanACK extends HttpServlet {
         msg = request.getParameter("message");
 
         final String username = "abdellaabasse@iut-dhaka.edu";
-        final String password = "kamikaze.10";
+        final String password = "fiqq rjbw nnwc onsz";
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
         props.put("mail.smtp.starttls.enable", true);
