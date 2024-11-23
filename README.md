@@ -48,6 +48,7 @@ This web application, implemented using IntelliJ IDEA Community Edition, Servlet
 4. Configure the Tomcat Server in IntelliJ IDEA following the steps bellow;
    
   i. Click on Edit Configurations
+  
 ![alt text](https://github.com/mounbagna/Bank-Management-System/blob/master/Pics/1.png)
 
  ii. click on the + sign on add configuration and choose smart tomcat
