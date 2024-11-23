@@ -20,8 +20,8 @@ public class SendEmail {
         String toEmail = user.getEmail();
 
         //provide valid email address and password
-        String fromEmail = "abdellaabasse@iut-dhaka.edu";
-        String password = "";
+        String fromEmail = "abassledesigner@gmail.com";
+        String password = "fiqq rjbw nnwc onsz";
         try {
             Properties pr = new Properties();
 
