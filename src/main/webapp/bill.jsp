@@ -32,7 +32,7 @@
         class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
         id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#page-top">A.S.I.G Bank</a>
+        <a class="navbar-brand" href="#page-top">BANKIFY</a>
         <button
                 class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
                 type="button" data-bs-toggle="collapse"
@@ -189,14 +189,14 @@
         <!-- About Section Content-->
         <div class="row">
             <div class="col-lg-4 ms-auto">
-                <p class="lead">Welcome to Web App Banking, a collaborative project brought to you by a group of
-                    dedicated students from the Islamic University of Technology. Hailing from both Cameroon and
-                    Nigeria, our team is passionate about revolutionizing the digital banking experience for users
+                <p class="lead">Welcome to BANKIFY, a collaborative project brought to you by a
+                    dedicated student from the Islamic University of Technology. Hailing from Cameroon,I am passionate
+                    about revolutionizing the digital banking experience for users
                     across borders.</p>
             </div>
             <div class="col-lg-4 me-auto">
-                <p class="lead">At Web App Banking, our mission is to provide a seamless and secure online banking
-                    platform that meets the evolving needs of our diverse clientele. We strive to empower individuals
+                <p class="lead">At BANKIFY, my mission is to provide a seamless and secure online banking
+                    platform that meets the evolving needs of our diverse clientele. I strive to empower individuals
                     and businesses with accessible financial services, facilitating convenient transactions and fostering
                     financial inclusion.</p>
             </div>
@@ -218,11 +218,11 @@
             <!-- Footer Social Icons-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Around the Web</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/?ref=homescreenpwa"><i
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
                         class="fab fa-fw fa-facebook-f"></i></a> <a
-                    class="btn btn-outline-light btn-social mx-1" href="https://web.telegram.org/a/"><i
-                    class="fab fa-fw fa-twitter"></i></a> <a
                     class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                    class="fab fa-fw fa-twitter"></i></a> <a
+                    class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i
                     class="fab fa-fw fa-linkedin-in"></i></a> <a
                     class="btn btn-outline-light btn-social mx-1" href="#!"><i
                     class="fab fa-fw fa-dribbble"></i></a>
@@ -231,8 +231,8 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">About A.S.I.G</h4>
                 <p class="lead mb-0">
-                    A.S.I.G is an online banking app implemented to facilitate transactions for it users. Created
-                    by <a href="https://www.facebook.com/?ref=homescreenpwa">Abasse(A) Saleem(S) Ibrahim(I) Guidado(G)</a> .
+                    BANKIFY is an online banking app implemented to facilitate transactions for it users. Created
+                    by <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">MOUNBAGNA ABDELLA ABASSE</a> .
                 </p>
             </div>
         </div>
@@ -274,7 +274,7 @@
                             <img class="img-fluid rounded mb-5"
                                  src="assets/img/portfolio/tuition.png" alt="..." />
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">At Web App Banking, we understand the importance of accessibility in education. That's why we offer flexible
+                            <p class="mb-4">At BANKIFY, we understand the importance of accessibility in education. That's why we offer flexible
                                 tuition payment options tailored to suit the individual needs of our users. Whether you're a student managing your own
                                 finances or a parent supporting your child's education, our platform provides convenient payment solutions to ensure seamless
                                 tuition transactions. With secure payment processing and customizable payment plans, we strive to make education more
@@ -394,7 +394,7 @@
                             <img class="img-fluid rounded mb-5"
                                  src="assets/img/portfolio/ip.jpg" alt="..." />
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">In addition to traditional banking services, our web app also offers an intuitive insurance
+                            <p class="mb-4">In addition to traditional banking services, my web app also offers an intuitive insurance
                                 payment option. Users can conveniently manage their insurance premiums and policies directly through our
                                 platform, ensuring hassle-free transactions and peace of mind. With secure encryption protocols and seamless
                                 integration, our insurance payment feature provides a streamlined experience, empowering users to safeguard
